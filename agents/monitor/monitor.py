@@ -1,7 +1,12 @@
-import argparse, sys, yaml, pathlib
-from datetime import datetime, timedelta
+import argparse
+import pathlib
+import sys
+from datetime import datetime
+
+import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
+
 
 def load_yaml(p):
     with open(p, 'r', encoding='utf-8') as f:
