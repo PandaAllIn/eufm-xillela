@@ -1,6 +1,11 @@
 # Stub for seeding GitHub issues from /wbs/*.yaml
 # Usage: python scripts/seed_backlog.py --dry-run
-import argparse, yaml, pathlib, json
+import argparse
+import json
+import pathlib
+
+import yaml
+
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
