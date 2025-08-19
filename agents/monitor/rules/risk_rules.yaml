@@ -1,0 +1,5 @@
+rules:
+  - id: RISK-1
+    description: Missing owner on any WBS item
+    check: "forall(wbs.items, has(owner))"
+    weight: 5

@@ -1,0 +1,11 @@
+milestones:
+  - id: STAGE1
+    title: Stage 1 (10‑page) submitted
+    date: 2025-09-04
+    gate_rules:
+      - all stage‑1 sections complete with reviewers
+  - id: STAGE2
+    title: Stage 2 (full) submitted
+    date: 2026-02-18
+    gate_rules:
+      - full WPs detailed; budget & consortium locked

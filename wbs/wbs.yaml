@@ -1,0 +1,23 @@
+wbs:
+  WP1:
+    - id: WP1-D1.1
+      title: Project handbook & quality plan
+      type: deliverable
+      due: 2025-10-15
+      owner: pm
+      acceptance:
+        - handbook in /docs
+        - quality gates defined and enforced by CI
+  WP2:
+    - id: WP2-T2.1
+      title: Derive initial target panel & design hypotheses
+      type: task
+      due: 2025-09-10
+      owner: cso
+      depends: []
+  WP3:
+    - id: WP3-T3.1
+      title: In‑vitro assay pipeline established
+      type: task
+      due: 2025-11-01
+      owner: lab-lead

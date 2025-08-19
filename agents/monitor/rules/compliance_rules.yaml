@@ -1,0 +1,13 @@
+rules:
+  - id: MAA-1
+    description: Multi‑Actor Approach evidenced quarterly
+    check: "exists(/docs/compliance/maa_log.md, entries_in_last_90_days >= 3)"
+    weight: 8
+  - id: ETH-1
+    description: Ethics approvals prior to data collection
+    check: "exists(/docs/compliance/ethics_checklist.md, approvals >= required)"
+    weight: 10
+  - id: IP-1
+    description: IP strategy artifacts present & updated
+    check: "exists(/docs/exploitation/ip_strategy.md, updated_within_days <= 60)"
+    weight: 6
